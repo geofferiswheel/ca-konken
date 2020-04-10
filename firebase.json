@@ -6,5 +6,10 @@
       "**/.*",
       "**/node_modules/**"
     ]
+  },
+  "functions": {
+    "predeploy": [
+      "bundle exec jekyll build"
+    ]
   }
 }
